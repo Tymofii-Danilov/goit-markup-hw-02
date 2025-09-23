@@ -16,10 +16,31 @@ li {
   list-style: none;
 }
 
+.cons-text,
+.team-person,
+.contact-item,
+.portfolio-item,
+.portfolio-text,
+.cage-text {
+  letter-spacing: 0.02em;
+}
+
+.team-heading,
+.portfolio-heading {
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+
+.team-role {
+  letter-spacing: 0.02em;
+  font-size: 16px;
+}
+
 h1 {
   color: #ffffff;
   font-size: 56px;
   line-height: 107%;
+  letter-spacing: 0.02em;
 }
 
 h2 {
@@ -31,6 +52,7 @@ h3 {
   font-size: 20px;
   line-height: 120%;
   font-weight: 500;
+  letter-spacing: 0.02em;
 }
 
 h2,
@@ -45,6 +67,7 @@ h2 {
 
 .menu-item {
   font-weight: 500;
+  letter-spacing: 0.02em;
 }
 
 .menu-item:hover,
@@ -58,21 +81,19 @@ h2 {
   font-style: normal;
 }
 
-.contact-item {
-  letter-spacing: 0.02em;
-}
-
 button {
   background-color: #4d5ae5;
-  letter-spacing: 4%;
+  letter-spacing: 0.04em;
   cursor: pointer;
   font-weight: 500;
   color: #ffffff;
   border: none;
   text-align: center;
+  line-height: 1.5;
 }
 
-button:hover {
+button:hover,
+button:focus {
   background-color: #404bbf;
 }
 
@@ -101,6 +122,10 @@ button:hover {
 
 .logo > .studio {
   color: #2e2f42;
+}
+
+.cage {
+  letter-spacing: 0.03em;
 }
 
 footer > .logo > .studio {
