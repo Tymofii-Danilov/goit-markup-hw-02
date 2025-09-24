@@ -3,7 +3,7 @@ body {
   background-color: #ffffff;
   color: #434455;
   line-height: 1.5;
-  letter-spacing: 2%;
+  letter-spacing: 0.02em;
   font-size: 16px;
 }
 
@@ -19,7 +19,7 @@ li {
 .cons-text,
 .team-person,
 .contact-item,
-.portfolio-item,
+.portfolio-item-name,
 .portfolio-text,
 .cage-text {
   letter-spacing: 0.02em;
@@ -32,8 +32,8 @@ li {
   color: #434455;
 }
 
-.team-heading,
-.portfolio-heading {
+.team-title,
+.portfolio-title {
   letter-spacing: 0.02em;
   text-transform: capitalize;
 }
@@ -43,32 +43,41 @@ li {
   font-size: 16px;
 }
 
-h1 {
+.hero-title {
   color: #ffffff;
   font-size: 56px;
-  line-height: 107%;
+  line-height: 1.07;
   letter-spacing: 0.02em;
 }
 
-h2 {
+.team-title,
+.portfolio-title {
   font-size: 36px;
-  line-height: 111%;
+  line-height: 1.11;
 }
 
-h3 {
+.contact-item-title,
+.portfolio-item-title,
+.team-person {
   font-size: 20px;
-  line-height: 120%;
+  line-height: 1.2;
   font-weight: 500;
   letter-spacing: 0.02em;
 }
 
-h2,
-h3 {
+.team-title,
+.portfolio-title,
+.contact-item-title,
+.portfolio-item-title,
+.team-person {
   color: #2e2f42;
 }
 
-h1,
-h2 {
+.hero-title,
+.team-title,
+.portfolio-title,
+.team-person,
+.team-role {
   text-align: center;
 }
 
@@ -89,7 +98,7 @@ h2 {
   font-style: normal;
 }
 
-button {
+.hero-cta {
   background-color: #4d5ae5;
   letter-spacing: 0.04em;
   cursor: pointer;
@@ -100,8 +109,8 @@ button {
   line-height: 1.5;
 }
 
-button:hover,
-button:focus {
+.hero-cta:hover,
+.hero-cta:focus {
   background-color: #404bbf;
 }
 
@@ -110,7 +119,7 @@ button:focus {
   font-size: 18px;
   font-weight: 700;
   text-transform: uppercase;
-  line-height: 117%;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   color: #4d5ae5;
 }
@@ -123,28 +132,20 @@ button:focus {
   background-color: #ffffff;
 }
 
-.team-item > h3,
-.team-item > p {
-  text-align: center;
+.logo-dark {
+  color: #2e2f42;
 }
 
-.logo > .studio {
-  color: #2e2f42;
+.logo-light,
+.cage-text {
+  color: #f4f4fd;
 }
 
 .cage {
   letter-spacing: 0.03em;
 }
 
-footer > .logo > .studio {
-  color: #f4f4fd;
-}
-
-footer > p {
-  color: #f4f4fd;
-}
-
-footer,
+.cage,
 .hero {
   background-color: #2e2f42;
 }
